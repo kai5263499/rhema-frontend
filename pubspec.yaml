@@ -1,0 +1,42 @@
+name: flutterfire_samples
+description: Firebase + Flutter sample apps with code snippets, supported by comprehensive articles for each implementation.
+
+publish_to: "none"
+version: 2.6.1+11
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.24.0
+  firebase_auth: ^3.11.2
+  google_sign_in: ^5.4.2
+  cloud_firestore: ^3.5.1
+  font_awesome_flutter: ^10.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 500
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-ExtraBold.ttf
+          weight: 700
